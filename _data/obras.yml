@@ -1,0 +1,97 @@
+ - titulo: The Best Joker (Cavaleiro das Trevas)
+   autor: Paola Freitas Mendeiros
+   tecnica: Pintura sobre papel
+   dimensoes: 210mm x 297mm
+   categoria: Pintura
+   imagem: joker.jpg
+   
+ - titulo: Utilitários Artisticos
+   autor: Léo Moreira
+   tecnica: Ferro fundido, solda e tinta.
+   dimensoes: Diversas
+   categoria: Escultura
+   imagem: utilitarios
+      
+ - titulo: Essência
+   autor: João Pedro de Castro Oliveira - João Oliveira
+   tecnica: Desenho e impressão
+   dimensoes: 21cm x 30cm 
+   categoria: Pintura
+   imagem: essencia.jpg
+   
+ - titulo: Revelação
+   autor: Vera Lucia Macedo - Velma
+   tecnica: Pintura e colagem
+   dimensoes: 100cm x 50cm
+   categoria: Pintura
+   imagem: revelacao.jpg
+   
+ - titulo: Menino e o livro
+   autor: Felipe Mansini
+   tecnica: Escultura em arame
+   dimensoes: 17cm x 12cm x 13cm
+   categoria: Escultura
+   imagem: livro.jpg
+   
+ - titulo: O contato com a natureza
+   autor: Felipe Mansini
+   tecnica: escultura em arame
+   dimensoes: 49cm x 28cm x 35cm
+   categoria: Escultura
+   imagem: natureza.jpg
+   
+ - titulo: Pico surreal
+   autor: Vera Lucia Macedo - Velma
+   tecnica: Pintura e colagem
+   dimensoes: 70cm x 50cm
+   categoria: Pintura
+   imagem: pico.jpg
+   
+ - titulo: Pescador
+   autor: Angela Márcia Cypriano Assad
+   tecnica: óleo sobre tela
+   dimensoes: 100cm x 90cm x 5cm
+   categoria: Pintura
+   imagem: pescador.jpg
+   
+ - titulo: Bailarina
+   autor: Angela Márcia Cypriano Assad
+   tecnica: óleo sobre tela
+   dimensoes: 90cm x 70cm x 5cm
+   categoria: Pintura
+   imagem: bailarina.jpg
+   
+ - titulo: sem titulo
+   autor: Paola Freitas Mendeiros
+   tecnica: desenho e pintura
+   dimensoes: 210mm x 297mm
+   categoria: Pintura
+   imagem: rena.jpg
+   
+ - titulo: Floresta Ardente
+   autor: Maria Eduarda Agum Medonça Chagas
+   tecnica: Desenho
+   dimensoes: 30cm x 21cm
+   categoria: Pintura
+   imagem: ardente.jpg
+   
+ - titulo: Ao Rubem Braga
+   autor: Degian da Silva Rodrigues
+   tecnica: Desenho e pintura em aquarela
+   dimensoes: 21cm x 30cm
+   categoria: Pintura
+   imagem: rubem.jpg
+
+ - titulo: Visão e Revisão
+   autor: Ricardo Ferraz
+   tecnica: Cartum - desenho sobre papel
+   dimensoes: 24cm x 32,5cm
+   categoria: Pintura
+   imagem: visao.jpg
+
+ - titulo: Por que não?
+   autor: João Pedro de Castro Oliveira - João Oliveira
+   tecnica: Desenho com grafite e colagem
+   dimensoes: 24cm x 32,5cm
+   categoria: Pintura
+   imagem: nao.jpg
