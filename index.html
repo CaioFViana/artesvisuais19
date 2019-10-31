@@ -43,7 +43,7 @@ title: Home
 	<h2 class="p-4 h2-text text-center">Obras do salão</h2> 
 	<hr class="hr-15-laranja">
 	{% for obra in site.data.obras %}
-	<div class="card bg-dark">
+	<div class="card bg-dark" style="margin-bottom:15px;">
         <img src="/assets/img/obras/{{ obra.imagem }}" class="card-img" alt="{{ obra.titulo }}">
         <div class="card-img-overlay text-white black-stroke">
             <h5 class="card-title">{{ obra.titulo }}</h5>
