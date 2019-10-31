@@ -39,6 +39,21 @@ title: Home
     </div>
   </div>
 </div>
+<div class="container py-5">
+	<h2 class="p-4 h2-text text-center">Obras do salão</h2> 
+	<hr class="hr-15-laranja">
+	{% for obra in site.data.obras %}
+	<div class="card bg-dark">
+        <img src="/assets/img/obras/{{ obra.imagem }}" class="card-img" alt="{{ obra.titulo }}">
+        <div class="card-img-overlay text-white black-stroke">
+            <h5 class="card-title">{{ obra.titulo }}</h5>
+            <p class="card-text">Autor(a): {{ obra.autor }}</p>
+            <p class="card-text">Tecnica(s): {{ obra.tecnica }}</p>
+            <p class="card-text">Dimensões: {{ obra.dimensoes }}</p>
+        </div>
+    </div>
+	{% endfor %}
+</div>
 <div class="container text-center py-5">
 	<h2 class="p-4 h2-text">Atividades</h2> 
 	<hr class="hr-15-laranja">
