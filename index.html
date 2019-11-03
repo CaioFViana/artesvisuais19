@@ -15,7 +15,7 @@ title: Home
 <div class="container">
 
 		<!-- Full-width images with number text -->
-		{% assign ind = 1 %}
+		<!-- {% increment ind %} -->
         {% for obra in site.data.obras %}
 		<div class="mySlides">
 		  <div class="numbertext">{% increment ind %} / {{ site.data.obras.size }}</div>
@@ -34,10 +34,9 @@ title: Home
 	  
 		<!-- Thumbnail images -->
 		<div class="row">
-          {% assign ind2 = 1 %}
           {% for obra in site.data.obras %}
 		  <div class="column">
-			<img class="demo cursor" src="{{ site.baseurl }}/assets/img/obras/{{ obra.imagem }}" style="width:100%" onclick="currentSlide({% increment ind2 %})" alt="{{ obra.autor }} - {{ obra.titulo }}">
+			<img class="demo cursor" src="{{ site.baseurl }}/assets/img/obras/{{ obra.imagem }}" style="width:100%" onclick="currentSlide({% increment ind2 %} + 1)" alt="{{ obra.autor }} - {{ obra.titulo }}">
 		  </div>
 		  {% endfor %}
 		</div>
