@@ -36,7 +36,7 @@ title: Home
 		<div class="row">
           {% for obra in site.data.obras %}
 		  <div class="column">
-			<img class="demo cursor" src="{{ site.baseurl }}/assets/img/obras/{{ obra.imagem }}" style="width:100%" onclick="currentSlide({% increment ind2 %} + 1)" alt="{{ obra.autor }} - {{ obra.titulo }}">
+			<img class="demo cursor" src="{{ site.baseurl }}/assets/img/obras/{{ obra.imagem }}" style="width:100%" onclick="currentSlide({% increment ind2 %} + 1)" alt="{{ obra.autor }} - {{ obra.titulo }}<br>Dimensões: {{ obra.dimensoes }}<br>Tecnica: {{ obra.tecnica }}">
 		  </div>
 		  {% endfor %}
 		</div>
