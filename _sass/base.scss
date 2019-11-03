@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-$cor-padrao: #d94a00;
+$cor-padrao: #e5ad24;
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -255,9 +255,9 @@ body {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: white;
   padding: 2px 16px;
-  color: white;
+  color: #222;
 }
 
 .row:after {
