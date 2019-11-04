@@ -2,6 +2,13 @@
 
 $cor-padrao: #e5ad24;
 
+@font-face {
+    font-family: 'Poor';
+    src: url('../img/PoorRichard.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 	padding-top: 80px;
@@ -290,5 +297,15 @@ body {
     color: white;
 }
 .bg-cinza {
-    background-color: #151515;
+    background-color: #000;
+}
+
+.main-title {
+    font-size: 7em;
+}
+.main-description {
+    font-size: 1.7em;
+}
+.poor{
+    font-family: 'Poor';
 }
