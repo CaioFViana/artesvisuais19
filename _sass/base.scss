@@ -243,10 +243,14 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/3 etc) */ 
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  
+  /*Silhueta preta*/
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -255,9 +259,9 @@ body {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: white;
+ /* background-color: white;*/
   padding: 2px 16px;
-  color: #222;
+  color: white;
 }
 
 .row:after {
@@ -280,4 +284,11 @@ body {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.color-white {
+    color: white;
+}
+.bg-cinza {
+    background-color: #353535;
 }
